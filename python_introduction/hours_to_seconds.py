@@ -1,5 +1,4 @@
 hours = 2
-minute = 60
-secs = 60
-seconds = hours * minute * secs
+
+seconds = hours * 3600
 print(seconds)
