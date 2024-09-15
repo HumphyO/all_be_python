@@ -1,5 +1,5 @@
-Principal = 1000
-Rate = 0.05
-Time = 3
-intrest= (Principal*Rate*Time)
+principal = 1000
+rate = 0.05
+time = 3
+intrest= (principal * rate * time )
 print(intrest)
