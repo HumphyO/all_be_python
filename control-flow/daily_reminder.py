@@ -1,6 +1,6 @@
 Task = input("Enter your task: ")
-Priority = input("What priority does it take? (high/medium/low): ")
-Time_Bound = input("Is it time bound? (yes/no): ")
+Priority = input("Priority? (high/medium/low): ")
+Time_Bound = input("Is it time_bound? (yes/no): ")
 
 def process_task(task, priority, time_bound):
     reminder = ""
@@ -17,6 +17,6 @@ match Priority:
 
 if Time_Bound == "yes":
         print(" This task requires immediate attention today!")
-else:
+    else:
      print('Note, this task can be done later!')
 
