@@ -13,6 +13,7 @@ match Priority:
             reminder = f"Task: {Task} has UNKNOWN priority."
 
 if Time_Bound == "yes":
-        print(" This task requires immediate attention today!")
+        reminder += "This task requires immediate attention today!"
+        print(reminder)
 else:
      print('Note, this task can be done later!')
