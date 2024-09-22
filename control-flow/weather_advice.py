@@ -1,4 +1,3 @@
-weather = 'sunny', 'rainy', 'cold'
 weather = input('What is the weather like today? (sunny/rainy/cold): ')
 
 if weather == 'sunny':
