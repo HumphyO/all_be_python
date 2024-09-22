@@ -4,16 +4,16 @@ Priority = input("Priority (high/medium/low): ")
 
 match Priority:
         case "high":
-            reminder = f"Reminder: {Task} has HIGH priority!"
+            Reminder = f"Reminder: {Task} has HIGH priority!"
         case "medium":
-            reminder = f"Reminder: {Task} has MEDIUM priority."
+            Reminder = f"Reminder: {Task} has MEDIUM priority."
         case "low":
-            reminder = f"Reminder: {Task} has LOW priority."
+            Reminder = f"Reminder: {Task} has LOW priority."
         case _:
-            reminder = f"Reminder: {Task} has UNKNOWN priority."
+            Reminder = f"Reminder: {Task} has UNKNOWN priority."
 
 if Time_Bound == "yes":
-        reminder += "This task requires immediate attention today!"
-        print(reminder)
+        Reminder += "This task requires immediate attention today!"
+        print(Reminder)
 else:
      print('Note, this task can be done later!')
